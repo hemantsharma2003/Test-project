@@ -37,7 +37,7 @@ try {
         echo "
         <script>
             alert('Updated Successfully');
-            window.location.href = 'http://localhost/user-registration-and-login-system/home.php';
+            window.location.href = 'http://localhost/Test-project/home.php';
         </script>
         ";
 
@@ -46,7 +46,7 @@ try {
         echo "
         <script>
             alert('User Already Exist');
-            window.location.href = 'http://localhost/user-registration-and-login-system/index.php';
+            window.location.href = 'http://localhost/Test-project/index.php';
         </script>
         ";
     }

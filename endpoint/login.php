@@ -17,14 +17,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "
             <script>
                 alert('Login Successfully!');
-                window.location.href = 'http://localhost/user-registration-and-login-system/home.php';
+                window.location.href = 'http://localhost/Test-project/home.php';
             </script>
             "; 
         } else {
             echo "
             <script>
                 alert('Login Failed, Incorrect Password!');
-                window.location.href = 'http://localhost/user-registration-and-login-system/login.php';
+                window.location.href = 'http://localhost/Test-project/login.php';
             </script>
             ";
         }
@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "
             <script>
                 alert('Login Failed, User Not Found!');
-                window.location.href = 'http://localhost/user-registration-and-login-system/login.php';
+                window.location.href = 'http://localhost/Test-project/login.php';
             </script>
             ";
     }
